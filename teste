@@ -1,0 +1,62 @@
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Mundo dos Pets</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Nossos Amigos Peludos</h2>
+      <p>Conheça mais sobre os cuidados, curiosidades e diversão com os pets.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Mundo dos Pets</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
+
+
+CSS (styles.css):
+css
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+{"}"}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+JavaScript (scripts.js):
+javascript
+// Função para exibir uma mensagem de boas-vindas
+function exibirMensagem() {
+  alert("Bem-vindo ao nosso site sobre pets! Aqui você encontrará informações úteis e divertidas sobre os nossos amigos peludos.");
+}
+
+// Chamando a função ao carregar a página
+window.onload = function() {
+  exibirMensagem();
+}
